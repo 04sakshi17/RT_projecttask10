@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 
-export default function Box({ rotate = false }) {
+export default function Box({ rotate = true }) {
   const mesh = useRef();
   const [hovered, setHovered] = useState(false);
 
